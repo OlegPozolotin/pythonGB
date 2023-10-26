@@ -1,1 +1,19 @@
-print('tttdfgd')
+# Создание переменных
+name = "John"
+age = 28
+height = 175.5
+
+# Вывод на экран значений переменных
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+
+# Запрос чисел и строк у пользователя
+num1 = int(input("Введите число: "))
+num2 = float(input("Введите другое число: "))
+string = input("Введите строку: ")
+
+# Вывод на экран введенных значений
+print("Вы ввели число 1:", num1)
+print("Вы ввели число 2:", num2)
+print("Вы ввели строку:", string)

@@ -1,0 +1,10 @@
+# Запрос числа у пользователя
+n = input("Введите число n: ")
+
+# Вычисление суммы чисел n + nn + nnn
+nn = int(n + n)
+nnn = int(n + n + n)
+sum_result = int(n) + nn + nnn
+
+# Вывод суммы на экран
+print("Сумма чисел n + nn + nnn:", sum_result)
