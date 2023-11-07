@@ -1,4 +1,8 @@
 def my_func():
+    """
+
+    :return:
+    """
     # Запрашиваем три аргумента у пользователя
     a = float(input("Введите первый аргумент: "))
     b = float(input("Введите второй аргумент: "))
@@ -11,6 +15,7 @@ def my_func():
     sum_of_two_max = a + b + c - min_value
 
     return sum_of_two_max
+
 
 # Вызов функции
 result = my_func()

@@ -1,4 +1,10 @@
 def my_func(x, y):
+    """
+
+    :param x:
+    :param y:
+    :return:
+    """
     if y == 0:
         return 1
     result = 1
@@ -7,6 +13,7 @@ def my_func(x, y):
     if y < 0:
         result = 1 / result
     return result
+
 
 # Тестирование функции
 x = float(input("Введите положительное число x: "))

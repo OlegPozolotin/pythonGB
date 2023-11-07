@@ -1,4 +1,9 @@
 def calculate_sum(numbers):
+    """
+
+    :param numbers:
+    :return:
+    """
     numbers_list = numbers.split()
 
     # Проверка наличия специального символа
@@ -11,6 +16,7 @@ def calculate_sum(numbers):
     # Суммирование чисел
     numbers_sum = sum(map(float, numbers_list))
     return numbers_sum, should_continue
+
 
 total_sum = 0
 continue_input = True

@@ -1,9 +1,16 @@
 def divide_numbers(x, y):
+    """
+
+    :param x:
+    :param y:
+    :return:
+    """
     try:
         result = x / y
         return result
     except ZeroDivisionError:
         print("Ошибка: деление на ноль")
+
 
 # Ввод чисел пользователем
 num1 = float(input("Введите первое число: "))
